@@ -1,12 +1,13 @@
 {
-  "name": "mc-status",
+  "name": "mc-server-status",
   "version": "1.0.0",
+  "description": "ShaoGeMCserver 状态查询",
   "main": "server-status.js",
+  "scripts": {
+    "start": "node server-status.js"
+  },
   "dependencies": {
     "express": "^4.19.2",
     "minecraft-server-util": "^5.0.2"
-  },
-  "scripts": {
-    "start": "node server-status.js"
   }
 }
